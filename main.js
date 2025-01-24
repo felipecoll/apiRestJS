@@ -1,4 +1,5 @@
-const Api_url = 'https://api.thecatapi.com/v1/images/search?limit=3'
+const akey ='live_PWKdmjhGz8tJxx0BObyhWPGyLHARPJ0AHhbr3IkWzUfYG01OGnvN5JFVGFrv1ug4'
+const Api_url =`https://api.thecatapi.com/v1/images/search?limit=3&api_key=${akey}`
 
 /*
 Ejemplo de como usar queryparameters
