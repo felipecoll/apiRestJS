@@ -2,9 +2,6 @@ const API_URL_RANDOM = ' https://api.thecatapi.com/v1/images/'
 
 const LIMIT_RANDOM = 'search?limit=5'
 
-const API_KEY = "live_AxdLngQtmaQJsTHJsunuuqWHm5cs1PN1N1pevU5u1LgxXliMphLMhcxkK1J0i6UX";
-
-const API_KEY_TWO = "live_p8gZ9g54dCDnjsWwK3Mzm1PAcm7djNnbm4kb29Woc32pxyVVBcLv7ePEfXVfkLN0"
 
 const API_URL_FAVOURITES = "https://api.thecatapi.com/v1/favourites";
 
