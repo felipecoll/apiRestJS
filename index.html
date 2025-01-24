@@ -6,31 +6,24 @@
     <title>Api de gatitos</title>
 </head>
 <body>
-    <h1>Fotos de puñeteros gatitos</h1>
-    <article>
-        <img id="img1" width="150" height="150" alt="imagen aleatoria de gatos">
-        <button>Guardar gato en favoritos</button>
-    </article>
-    <article>
-        <img id="img2" width="150" height="150" alt="imagen aleatoria de gatos">
-        <button>Guardar gato en favoritos</button>
-    </article>
-    <article>
-        <img id="img3" width="150" height="150" alt="imagen aleatoria de gatos">
-        <button>Guardar gato en favoritos</button>
-    </article>
-    <!-- <section id="imgGatitos">
-        <img id="img1" width="150" height="150" alt="imagen aleatoria de gatos">
-        <img id="img2" width="150" height="150" alt="imagen aleatoria de gatos">
-         <img id="img3" width="150" height="150" alt="imagen aleatoria de gatos">
-             <button onclick="reload()">Recargar felinos</button>
-    </section> -->
-    <section id="imgGatosFavoritos">
-        <img id="img1" width="150" height="150" alt="imagen aleatoria de gatos">
+    <h1>Cat API</h1>
 
-    </section>
+    <div class="random-cats">
+        <h2>Random Cats</h2>
+        <button class="get-btn" onclick="loadRamdomCats()">Get Random Cats</button>
+        <div class="container random">
+            
+        </div>
+    </div>
 
-    
+    <div class="favourites-cats">
+        <h2>Favourites Cats</h2>
+        <button class="get-btn" onclick="loadFavouritesCats()">Get Favourites Cats</button>
+        <div class="container favourites"> 
+        </div>
+    </div>
+
+
     <script src="./main.js"></script>
 </body>
 </html>
